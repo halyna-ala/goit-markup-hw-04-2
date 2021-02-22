@@ -10,6 +10,7 @@
 --primery-btn-color: #F5F4FA;
 --social-icons: #afb1b8;
 --card-grid: 30px;
+--white-text-color-1: rgba(255, 255, 255, 0.1);
 }
 
 body { 
@@ -374,6 +375,10 @@ border-radius: 0px 0px 4px 4px;
 .social-icons .icon-s:focus {
     background-color: var(--akcent-color);
 }
+.icon-s.footer-li {
+    background-color: var(--white-text-color-1);
+    color: var(--hero-100pr);
+}
 /* .section-user .link {
     margin-bottom: 30px;
 } */
@@ -420,7 +425,6 @@ pading: 97px 0 91px;
 
 .footer {
     display: flex;
-    height: 252px;
     justify-content: center;
     background: var(--backgraund);
 
@@ -445,7 +449,7 @@ width: 231px;
     line-height: 1.71;
 }
 .contact .links {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     margin-top: 9px;
 }
@@ -475,28 +479,13 @@ width: 231px;
     padding-top: 0;
     padding-bottom: 0;
     width: 206px;
-  margin: 12px auto 40px 70px
+  margin: 12px auto 40px 70px;
 }
-.
-/* .footer-icons .icons{
-    display: flex;
-    justify-content: center;   
-} */
-/* footer-icons */
 
-.footer-icons .icons {
+.foot-div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
 }
-.social-link-svg {
-    background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  color: var(--white-text-color-1);
-}
+
 /* button */
 .button {
     border-radius: 4px;

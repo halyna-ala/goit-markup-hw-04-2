@@ -240,19 +240,19 @@ color: var(--title-text-color)
 }
 
 .items:nth-child(1)::before {
-    background-image: url("../images/symbol-defs.svg#icon-antenna");
+    background-image: url("../images/antenna.svg");
 }
 
 .items:nth-child(2)::before {
-    background-image: url("../images/symbol-defs.svg#icon-clock");
+    background-image: url("../images/clock.svg");
 }
 
 .items:nth-child(3)::before {
-    background-image: url("../images/symbol-defs.svg#icon-diagram");
+    background-image: url("../images/diagram.svg");
 }
 
 .items:nth-child(4)::before {
-    background-image: url("../images/symbol-defs.svg#icon-astronaut");
+    background-image: url("../images/astronaut.svg");
 }
 
 /* .items .icon-antenna {

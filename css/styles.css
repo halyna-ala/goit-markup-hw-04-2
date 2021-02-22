@@ -236,6 +236,7 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 background-color: var(--primery-btn-color);
+color: var(--title-text-color)
 }
 
 .items:nth-child(1)::before {
@@ -377,7 +378,10 @@ border-radius: 0px 0px 4px 4px;
 }
 .icon-s.footer-li {
     background-color: var(--white-text-color-1);
-    color: var(--hero-100pr);
+    fill: var(--hero-100pr);
+}
+.leter-f {
+    fill: var(--hero-100pr);
 }
 /* .section-user .link {
     margin-bottom: 30px;

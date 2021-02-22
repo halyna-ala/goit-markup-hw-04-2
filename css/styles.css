@@ -4,7 +4,7 @@
 --akcent-color:  #2196F3;
 --logo-tekst: #000000;
 --hero-100pr: #FFFFFF;
---white-footer-60pr: #FFFFFF;
+--white-footer-60pr:rgba(255, 255, 255, 0.6);
 
 --backgraund: #2F303A; 
 --primery-btn-color: #F5F4FA;
@@ -436,8 +436,14 @@ pading: 97px 0 91px;
 .footer .logo, 
 .footer .item-s {color: var(--hero-100pr);}
 
-.adres .item {color: var(--white-footer-60pr);}
+.adres .item {
+    color: var(--white-footer-60pr);
+}
 
+.adres .item:hover,
+.adres .item:focus {
+    color: var(--hero-100pr);
+}
 .footer .contact {
     display: block;
     flex-wrap: wrap;
@@ -467,11 +473,7 @@ width: 231px;
     color: var(--hero-100pr);
 
 }
-.footer-logo {
 
-    /* display: flex; */
-    /* justify-content: center; */
-}
 .footer-icons {
     display: flex;
     justify-content: center;
@@ -484,6 +486,7 @@ width: 231px;
 
 .foot-div {
     display: flex;
+    align-items: baseline;
 }
 
 /* button */

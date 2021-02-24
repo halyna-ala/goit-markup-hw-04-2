@@ -70,8 +70,6 @@ outline: 1px solid mediumvioletred;
 .nav-adress { 
     margin-left: auto;
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -81,8 +79,11 @@ outline: 1px solid mediumvioletred;
     font-size: 14px; 
     line-height: 1.14; 
     letter-spacing: 0.02em;
+    cursor: pointer;
+
+    color: var(--primary-text-color);
 }
-/* site-nav */
+
 .site-nav {
     justify-content: space-between;
     align-items: center;
@@ -138,22 +139,22 @@ outline: 1px solid mediumvioletred;
 }
 
 /* adres */
-.nav-adress.link{
-    font-weight: 500; 
-    font-size: 14px; 
-    line-height: 1.14; 
-    letter-spacing: 0.02em;
+   
+.nav-adress .link {
     display: flex;
-    justify-content: center;
-    cursor: pointer;
-    height: 16px;
-    color: var(--primary-text-color);
-}
-.nav-adress .link{
+    align-items: center;
     content: '';
-    fill: currentColor;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+color: var(--primary-text-color);
 }
 .address-icon {
+    align-items: center;
     fill: currentColor;
     margin-right: 10px;
 }
@@ -168,9 +169,6 @@ fill: var(--akcent-color);
 /* .contact li:not(:last-child) {
     margin-right: 50px;
 } */
-.nav-adress .link {
-    color: var(--primary-text-color);
-}
 
 .nav-adress .link:hover, 
 .nav-adress .link:focus {color: var(--akcent-color);}
@@ -552,6 +550,7 @@ margin-bottom: 0;
     margin-right: auto;
    margin-left: auto;
     padding-right: 15px;
+    padding-bottom: 94px;
     padding-left: 15px;
     width: 1200px;
     outline: 1px solid chocolate;
